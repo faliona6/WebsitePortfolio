@@ -1,0 +1,125 @@
+
+/*Purple = #C37388
+Pink = #FFAAA6
+SkyBlue = #bdcebe
+Grayistheone = #ada397
+Green = #2F8054
+DarkGreen = #2F8054 */
+<style>
+
+
+#background_stuff {
+
+}
+
+.background {                                        /*image background*/
+  /* The image used */
+  background-image: url("Pictures/lookingout.jpg");
+  /* Full height */
+  height: 85%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body, html {                                       /*background color and height*/
+  background-color:#cccde8;
+  height:100%;
+  margin:0;
+  }
+
+#topBar {                                           /*black top menu bar*/
+  position: absolute;
+  background-image: url(Pictures/black.jpg);
+  background-size: 20%;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 44px;
+}
+
+#MainHeader {                                       /*Main Header*/
+  text-align:center;
+  position: absolute;
+  top: 5px;
+  left:60px;
+  color:#1c1c21;
+  font-size:1000%;
+  font-family: Leafy;
+  letter-spacing: 3px;
+  line-height: 80%;
+  text-shadow: -2px 0 #dedeed, 0 2px #dedeed, 2px 0 #dedeed, 0 -2px #dedeed;*/
+}
+                                                   /*Text below Main Header*/
+#subHeader {
+  text-align:center;
+  position: absolute;
+  top: 375px;
+  left:100px;
+  color:#2f3033;
+  font-size:200%;
+  font-family: Miller;
+  letter-spacing: 3px;
+  line-height: 80%;
+  text-shadow: -1px 0 #dedeed, 0 1px #dedeed, 1px 0 #dedeed, 0 -1px #dedeed;
+}
+                                                       /*Icons*/
+i {
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  float: left;
+}
+
+#pBox {
+  position:relative;
+  text-align:center;
+  color: #46434f;
+  font-size: 150%;
+  font-family: 'Lato', sans-serif;
+  /* border : 5px double #79879e; */
+  background-image: url(Pictures/patternDiamond.png);
+  padding :50px;
+  outline: 3px dotted #79879e;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  text-align:center;
+  color: #C37388;
+  font-size: 80%;
+  font-family: Lucida Sans Unicode;
+  padding : 50px;
+  margin: 50px;
+  width: 40%;
+}
+
+.buttonAnimation {
+  -webkit-transition-duration: 0.5s; /*Animation for the button */
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+a:link, a:visited{
+  position:absolute;
+  color: #eaebf2;
+  padding: 12px 10px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  font-size: 100%;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover, a:active{
+  padding-bottom: 9px;
+  border-bottom: 4px solid #9597c6;
+  color:#f2d2d2;
+
+}
+</style>
