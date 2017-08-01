@@ -7,10 +7,15 @@
   @font-face { font-family: Leafy; src: url('Fonts/Leafy.otf'); }
   @font-face { font-family: LeagueGothic-Regular; src: url('Fonts/LeagueGothic-Regular.otf'); }
 
-  body, html {                                       /*background color and height*/
-    background-color:#cccde8;
-    height:100%;
-    margin:0;
+    body, html {                                       /*background color and height*/
+      background-color:#cccde8;
+      background-image: url(Pictures/patternDiamond.png);
+      height:100%;
+      margin:0;
+      }
+
+    img {
+        border-radius: 8px;
     }
     #topBar {                                           /*black top menu bar*/
       position: absolute;
@@ -30,14 +35,24 @@
     position: absolute;
     float: left;
     }
+    .background {                                        /*image background*/
+      /* The image used */
+      background-image: url("Pictures/beachAboutMe.jpg");
+      /* Full height */
+      height: 500px;
+      width: auto;
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      border-radius: 20px;
+    }
     h1 {
       text-align:center;
-      position: absolute;
       margin-top: 50px;
-      margin-left: 25%;
-      margin-right: 25%;
+      margin-bottom: 40px;
       color:#1c1c21;
-      font-size:1000%;
+      font-size:900%;
       font-family: Leafy;
       letter-spacing: 3px;
       line-height: 80%;
@@ -67,42 +82,73 @@
       color:#f2d2d2;
 
     }
+    .center {
+      margin: auto;
+      width: 100%;
+    }
 
+    p {
+      position:relative;
+      text-align:center;
+      color: #46434f;
+      font-size: 100%;
+      font-family: 'Lato', sans-serif;
+      /* border : 5px double #79879e; */
+      background-image: url(Pictures/patternDiamond.png);
+      padding :50px;
+      outline: 3px dotted #79879e;
+      width: 40%;
+      margin-left: auto;
+      margin-right: auto;
+    }
 /*myCreations Page, images*/
-  div.container {
-    position:relative;
-    width:100%;
-    margin: auto;
+  a.whatever:link, a.whatever:visited{
+
   }
+  a.whatever:hover, a.whatever:active{
+
+  }
+  .container {
+      text-align:center;
+      position: relative;
+      width: 100%;
+      margin-bottom: 40px;
+  }
+
   .image {
-    opacity: 1;
-    width: 100%;
+    opacity: 0.4;
+    display: block;
+    width: 90%;
+    height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+    border: 2px solid #79a3d1;
   }
-  div.middle {
+
+  .middle {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
   }
-  div.container:hover .image {
+
+  .container:hover .image {
     opacity: 1;
   }
 
-  div.container:hover .middle {
+  .container:hover .middle {
     opacity: 1;
   }
 
-  div.text {
-    background-color: #4CAF50;
+  .text {
     color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-  }
-  #whatisgoingon {
-    width: 50px;
+    font-family:leafy;
+    font-size: 300%;
+    padding: 10px 17px;
+    line-height: 80%;
+    text-shadow: -2px 0 #131b21, 0 2px #131b21, 2px 0 #131b21, 0 -2px #131b21;*/
   }
 </style>
