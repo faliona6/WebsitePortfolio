@@ -14,9 +14,6 @@
       margin:0;
       }
 
-    img {
-        border-radius: 8px;
-    }
     #topBar {                                           /*black top menu bar*/
       position: absolute;
       background-image: url(Pictures/black.jpg);
@@ -59,13 +56,7 @@
       text-shadow: -2px 0 #dedeed, 0 2px #dedeed, 2px 0 #dedeed, 0 -2px #dedeed;*/
     }
 
-    .buttonAnimation {
-      -webkit-transition-duration: 0.5s; /*Animation for the button */
-      transition-duration: 0.5s;
-      cursor: pointer;
-    }
-
-    a:link, a:visited{
+    a.hello:link, a.hello:visited{
       position:absolute;
       color: #eaebf2;
       padding: 12px 10px;
@@ -75,11 +66,17 @@
       font-size: 100%;
       text-decoration: none;
       text-transform: uppercase;
+      -webkit-transition-duration: 0.5s; /*Animation for the button */
+      transition-duration: 0.5s;
+      cursor: pointer;
     }
-    a:hover, a:active{
+    a.hello:hover, a.hello:active{
       padding-bottom: 9px;
       border-bottom: 4px solid #9597c6;
       color:#f2d2d2;
+      -webkit-transition-duration: 0.5s; /*Animation for the button */
+      transition-duration: 0.5s;
+      cursor: pointer;
 
     }
     .center {
@@ -101,6 +98,25 @@
       margin-left: auto;
       margin-right: auto;
     }
+/*Image Portfolio Style*/
+  #imagePortfolio {
+    width: 30%;
+    border-radius: 8px;
+  }
+  a.ArtButton:link {
+      text-decoration: none;
+  }
+  a.ArtButton:hover {
+      background-color: yellow;
+  }
+  .round {
+      border-radius: 50%;
+      background-color: #b8c4d8;
+      color: purple;
+      font-size: 300px;
+      padding: 2px 100px;
+  }
+
 /*myCreations Page, images*/
   a.whatever:link, a.whatever:visited{
 
@@ -123,6 +139,7 @@
     transition: .5s ease;
     backface-visibility: hidden;
     border: 2px solid #79a3d1;
+    border-radius: 8px;
   }
 
   .middle {
@@ -151,4 +168,5 @@
     line-height: 80%;
     text-shadow: -2px 0 #131b21, 0 2px #131b21, 2px 0 #131b21, 0 -2px #131b21;*/
   }
+
 </style>
