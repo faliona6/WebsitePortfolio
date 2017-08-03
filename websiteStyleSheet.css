@@ -86,8 +86,17 @@ i {
   outline: 3px dotted #79879e;
   width: 60%;
   margin-left: auto;
+  margin-bottom: 50px;
   margin-right: auto;
 }
+
+/*Dawn image*/
+  #dawn {
+    width: 200px;
+    position: fixed;
+     bottom: 0;
+     right: 0;
+  }
 
 p {
   text-align:center;

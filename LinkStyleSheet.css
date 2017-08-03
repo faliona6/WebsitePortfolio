@@ -7,7 +7,7 @@
   @font-face { font-family: Leafy; src: url('Fonts/Leafy.otf'); }
   @font-face { font-family: LeagueGothic-Regular; src: url('Fonts/LeagueGothic-Regular.otf'); }
 
-    body, html {                                       /*background color and height*/
+    body, html {                                  /*background color and height*/
       background-color:#cccde8;
       background-image: url(Pictures/patternDiamond.png);
       height:100%;
@@ -99,22 +99,51 @@
       margin-right: auto;
     }
 /*Image Portfolio Style*/
+  .Slideshow {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   #imagePortfolio {
-    width: 30%;
+    width: 50%;
     border-radius: 8px;
+
+  }
+  .left {
+      left: 50px;
+
+  }
+  .right {
+      right: 130px;
+
   }
   a.ArtButton:link {
       text-decoration: none;
-  }
-  a.ArtButton:hover {
-      background-color: yellow;
-  }
-  .round {
-      border-radius: 50%;
+      position: absolute;
+      top:50%;
       background-color: #b8c4d8;
-      color: purple;
-      font-size: 300px;
-      padding: 2px 100px;
+  }
+
+  .arrow  {
+      border-radius: 50%;
+      color: black;
+      padding: 20px;
+      background-color: white;
+      -webkit-transition-duration: 0.5s; /*Animation for the button */
+
+  }
+  .arrow:hover, .arrow:active {
+    background-color: #b8c4d8;
+    color:white;
+    -webkit-transition-duration: 0.5s; /*Animation for the button */
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+/*Dawn image*/
+  #dawn {
+    position: fixed;
+     bottom: 0;
+     right: 0;
   }
 
 /*myCreations Page, images*/

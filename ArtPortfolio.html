@@ -10,6 +10,7 @@
 <body>
   <div id = "topBar"></div>
 
+
   <i class="fa fa-facebook" aria-hidden="true" style = "top:13px; right: 30px;"></i>    <!-- Adding all of the icons, twitter fb etc. -->
   <i class="fa fa-linkedin" aria-hidden="true" style = "top:13px; right: 60px;"></i>
 
@@ -19,9 +20,12 @@
   <a class = "hello" href = "GWC.html" style = "top:0px; left: 440px;"> girls who code</a>
 
   <h1> Art Portfolio </h1>
-  <a onclick = "photoLeft()" class = "ArtButton round" href = "javascript:void(0)">&#8249;</a>
-  <img id = "imagePortfolio" src = "Pictures/jirachi.png">
-  <a onclick = "photoRight()" class = "ArtButton round" href = "javascript:void(0)">&#8250;</a>
+  <div class = "Slideshow">
+    <a onclick = "photoLeft()" class = "ArtButton left round" href = "javascript:void(0)"><i class="fa fa-arrow-left arrow " aria-hidden="true" style = "font-size: 60px; top:60%;"></i></a>
+    <img id = "imagePortfolio">
+    <a onclick = "photoRight()" class = "ArtButton right round" href = "javascript:void(0)"><i class="fa fa-arrow-right arrow" aria-hidden="true" style = "font-size: 60px;"></i></a>
+  </div>
+
 
 </body>
 
