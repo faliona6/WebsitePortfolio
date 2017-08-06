@@ -4,7 +4,7 @@
   @font-face { font-family: Breakable; src: url('Fonts/Breakable.ttf'); }
   @font-face { font-family: Salt; src: url('Fonts/Salt-Regular.otf'); }
   @font-face { font-family: Flow; src: url('Fonts/Flow.otf'); }
-  @font-face { font-family: Leafy; src: url('Fonts/Leafy.otf'); }
+  @font-face { font-family: Leafy; src: url('Fonts/leafy.otf'); }
   @font-face { font-family: LeagueGothic-Regular; src: url('Fonts/LeagueGothic-Regular.otf'); }
 
     body, html {                                  /*background color and height*/
