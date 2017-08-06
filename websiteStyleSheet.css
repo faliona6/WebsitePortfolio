@@ -14,7 +14,7 @@ DarkGreen = #2F8054 */
 
 .background {                                        /*image background*/
   /* The image used */
-  background-image: url("/Pictures/sunset.jpg");
+  background-image: url("Pictures/sunset.JPG");
   /* Full height */
   height: 85%;
   /* Center and scale the image nicely */
